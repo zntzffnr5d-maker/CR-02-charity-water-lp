@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Give a Little, Help a Lot: a student project supporting charity: water's mission.">
+  <title>Give a Little, Help a Lot | Student Campaign</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header wrap">
+  <a class="brand" href="#main"><img src="img/water-can-transparent.png" alt="" width="24" height="34">charity: water</a>
+  <nav aria-label="Main navigation">
+    <a href="#story">Our work</a><a href="#story">Story</a><a href="#faq">FAQ</a>
+    <a class="button small" href="https://www.charitywater.org/donate">Give $5</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="headline">
+    <h1 id="headline"><span>Give a Little,</span><br>Help a Lot</h1>
+    <p class="intro">Join students turning $5 into clean water support. 100% of public donations fund water projects, with photos and GPS proof.</p>
+    <a class="button" href="https://www.charitywater.org/donate">Give $5 for clean water <span aria-hidden="true">↗</span></a>
+    <p class="note">Choose any amount on charity: water's donation page.</p>
+    <div class="photos" aria-label="A closer look at clean water">
+      <img class="left" src="img/left-photo.png" alt="A blue community water point beside a building">
+      <img class="center" src="img/water.jpg" alt="A smiling woman carrying a child and holding a glass of water">
+      <img class="right" src="img/right-photo.png" alt="A close view of a glass of water at the water point">
+    </div>
+  </section>
+  <section class="story wrap" id="story">
+    <img src="img/water.jpg" alt="A mother and child at a community water point" loading="lazy">
+    <div><p class="eyebrow">Behind every gift are people</p><h2>More than a glass of water.</h2><p>Our campaign starts with an everyday moment: a mother holding a glass of water, with her child close by. It is a hopeful reminder of the people at the heart of this cause.</p><p>As students, we may have small budgets, but we can still join a shared effort. Give what fits your budget, learn about the projects you help support, and invite a friend to take part.</p><a href="https://www.charitywater.org/">Discover the mission →</a></div>
+  </section>
+  <section class="faq wrap" id="faq">
+    <p class="eyebrow">A little clarity</p><h2>Your questions, answered.</h2>
+    <details><summary>Can a small gift help?</summary><p>Small gifts contribute to the larger effort to fund clean water projects. $5 is our suggested starting point, and you can choose what works for your budget.</p></details>
+    <details><summary>Where does my donation go?</summary><p>100% of public donations fund clean water projects. Donations are processed on charity: water's official website.</p></details>
+    <details><summary>How can I see the impact?</summary><p>charity: water documents funded projects with photos and GPS coordinates. <a href="https://www.charitywater.org/">Visit the official website to learn more.</a></p></details>
+  </section>
+  <section class="closing wrap"><h2>Start small. Be part of something bigger.</h2><p>Give what you can. Invite a friend. Help support clean water.</p><a class="button" href="https://www.charitywater.org/donate">Give $5 for clean water ↗</a></section>
+</main>
+<footer class="wrap"><p>Student project by Sarah Tsiao · Built with HTML &amp; CSS</p><p>Educational campaign concept. Donations are handled by charity: water.</p></footer>
 </body>
 </html>
